@@ -36,14 +36,14 @@ window.addEventListener("load", function () {
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/testwl.loader.js";
+  var loaderUrl = buildUrl + "/planet.loader.js";
   var config = {
-    dataUrl: buildUrl + "/testwl.data",
-    frameworkUrl: buildUrl + "/testwl.framework.js",
-    codeUrl: buildUrl + "/testwl.wasm",
+    dataUrl: buildUrl + "/planet.data",
+    frameworkUrl: buildUrl + "/planet.framework.js",
+    codeUrl: buildUrl + "/planet.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
-    productName: "C# TonConnect",
+    productName: "testgametele",
     productVersion: "1.0",
     showBanner: unityShowBanner,
   };
